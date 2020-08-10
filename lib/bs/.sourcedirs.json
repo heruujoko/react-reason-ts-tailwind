@@ -1,0 +1,1 @@
+{ "dirs" : [ "src" , "src/components" , "src/components/Banner" ] , "pkgs" : [ [ "gentype" , "/Users/heruujoko/Code/reasonml/reason-ts/node_modules/gentype" ] , [ "bs-platform" , "/Users/heruujoko/Code/reasonml/reason-ts/node_modules/bs-platform" ] , [ "reason-react" , "/Users/heruujoko/Code/reasonml/reason-ts/node_modules/reason-react" ] ] , "generated" : [] }

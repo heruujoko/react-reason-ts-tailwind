@@ -1,0 +1,12 @@
+####{BSB GENERATED: NO EDIT
+B lib/bs
+FLG -open ReasonTs
+FLG -ppx '/Users/heruujoko/Code/reasonml/reason-ts/node_modules/bs-platform/darwin/bsc.exe -as-ppx -bs-jsx 3'
+S /Users/heruujoko/Code/reasonml/reason-ts/node_modules/bs-platform/lib/ocaml
+B /Users/heruujoko/Code/reasonml/reason-ts/node_modules/bs-platform/lib/ocaml
+FLG -w +a-4-9-20-40-41-42-50-61-102
+S /Users/heruujoko/Code/reasonml/reason-ts/node_modules/reason-react/lib/ocaml
+B /Users/heruujoko/Code/reasonml/reason-ts/node_modules/reason-react/lib/ocaml
+S src/components/Banner
+B lib/bs/src/components/Banner
+####BSB GENERATED: NO EDIT}

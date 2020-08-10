@@ -1,0 +1,8 @@
+# ninja log v5
+# start_time end_time mtime command hash
+2	30	1597071438445244888	ReasonTs.cmi	3fc1c25eb111e156
+0	51	1597071438467651007	src/components/Banner/Banner.reast	580a207d3ca84508
+52	66	1597071438482879156	src/components/Banner/Banner.d	a14995663918dc3a
+66	161	1597071438538229636	src/components/Banner/Banner-ReasonTs.cmj	d9cac9ebc09cd86a
+66	161	1597071438538229636	src/components/Banner/Banner-ReasonTs.cmi	d9cac9ebc09cd86a
+66	161	1597071438538229636	/Users/heruujoko/Code/reasonml/reason-ts/src/components/Banner/Banner.bs.js	d9cac9ebc09cd86a
