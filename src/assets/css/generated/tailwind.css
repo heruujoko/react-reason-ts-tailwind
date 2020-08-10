@@ -18019,6 +18019,93 @@ video {
           animation: bounce 1s infinite;
 }
 
+.banner {
+  padding: 1.25rem;
+  text-align: left;
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.banner-info {
+  --bg-opacity: 1;
+  background-color: #ebf8ff;
+  background-color: rgba(235, 248, 255, var(--bg-opacity));
+  border-left-width: 8px;
+  --border-opacity: 1;
+  border-color: #4299e1;
+  border-color: rgba(66, 153, 225, var(--border-opacity));
+  border-radius: 0.25rem;
+  --text-opacity: 1;
+  color: #2a4365;
+  color: rgba(42, 67, 101, var(--text-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.banner-success {
+  --bg-opacity: 1;
+  background-color: #f0fff4;
+  background-color: rgba(240, 255, 244, var(--bg-opacity));
+  border-left-width: 8px;
+  --border-opacity: 1;
+  border-color: #48bb78;
+  border-color: rgba(72, 187, 120, var(--border-opacity));
+  border-radius: 0.25rem;
+  --text-opacity: 1;
+  color: #22543d;
+  color: rgba(34, 84, 61, var(--text-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.banner-danger {
+  --bg-opacity: 1;
+  background-color: #fff5f5;
+  background-color: rgba(255, 245, 245, var(--bg-opacity));
+  border-left-width: 8px;
+  --border-opacity: 1;
+  border-color: #f56565;
+  border-color: rgba(245, 101, 101, var(--border-opacity));
+  border-radius: 0.25rem;
+  --text-opacity: 1;
+  color: #742a2a;
+  color: rgba(116, 42, 42, var(--text-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.banner-warning {
+  --bg-opacity: 1;
+  background-color: #fffff0;
+  background-color: rgba(255, 255, 240, var(--bg-opacity));
+  border-left-width: 8px;
+  --border-opacity: 1;
+  border-color: #ecc94b;
+  border-color: rgba(236, 201, 75, var(--border-opacity));
+  border-radius: 0.25rem;
+  --text-opacity: 1;
+  color: #744210;
+  color: rgba(116, 66, 16, var(--text-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.banner-title {
+  font-size: 1.5rem;
+}
+
+.banner-message {
+  font-size: 1rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

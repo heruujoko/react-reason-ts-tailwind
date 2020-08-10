@@ -2,10 +2,30 @@
 
 import * as React from "react";
 
-function make(title, message) {
+function make(title, message, bannerType) {
+  var bannerClass;
+  switch (bannerType) {
+    case /* Info */0 :
+        bannerClass = "banner-info";
+        break;
+    case /* Success */1 :
+        bannerClass = "banner-success";
+        break;
+    case /* Warning */2 :
+        bannerClass = "banner-warning";
+        break;
+    case /* Danger */3 :
+        bannerClass = "banner-danger";
+        break;
+    
+  }
   return React.createElement("div", {
-              className: "banner"
-            }, React.createElement("h2", undefined, title), message);
+              className: "banner " + bannerClass
+            }, React.createElement("h2", {
+                  className: "banner-title"
+                }, title), React.createElement("span", {
+                  className: "banner-message"
+                }, message));
 }
 
 export {

@@ -8,7 +8,7 @@ bsc_flags = -bs-super-errors
 ppx_flags = 
 g_dpkg_incls = 
 g_ns = -bs-ns ReasonTs
-g_lib_incls = -I . -I src/components/Banner -I src/components -I src -I /Users/heruujoko/Code/reasonml/reason-ts/node_modules/reason-react/lib/ocaml
+g_lib_incls = -I . -I src/components/Banner -I src/components -I src/assets/css/generated -I src/assets/css -I src/assets -I src -I /Users/heruujoko/Code/reasonml/reason-ts/node_modules/reason-react/lib/ocaml
 rule build_ast_from_re
   command = $bsc  $warnings -bs-jsx 3 $bsc_flags -o $out -bs-syntax-only -bs-binary-ast $in
   description = [34mBuilding[39m [2m${out}[22m
